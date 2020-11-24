@@ -13,20 +13,25 @@
 > 没有指定值的枚举元素，其值为前一元素加 1。也就说 spring 的值为 0，summer 的值为 3，autumn 的值为 4，winter 的值为 5  
 ### 枚举变量的声明
 1. 先定义枚举类型，再定义枚举变量
-> ```enum DAY
+> 
+```
+enum DAY
 {
       MON=1, TUE, WED, THU, FRI, SAT, SUN
 };
 enum DAY day;
-````
+```
 2. 定义枚举类型的同时定义枚举变量
-> ```enum DAY
+> 
+```
+enum DAY
 {
       MON=1, TUE, WED, THU, FRI, SAT, SUN
 } day;
 ```
 3. 省略枚举名称，直接定义枚举变量
-> ```
+> 
+```
 enum
 {
       MON=1, TUE, WED, THU, FRI, SAT, SUN
